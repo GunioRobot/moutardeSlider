@@ -4,15 +4,6 @@
   MIT license.
 */
 
-// window.loadFirebugConsole();
-
-$(function(){
-  // Remove the moutarde-slider-no-js class from the body
-  $("body").removeClass("moutarde-slider-no-js");
-  // Preloader
-  $(".moutarde-slider").children('.panel').hide().end().prepend('<p class="loading">Loading...</p>');
-});
-
 var sliderCount = 1;
 
 $.fn.moutardeSlider = function(settings) {
@@ -40,9 +31,6 @@ $.fn.moutardeSlider = function(settings) {
   }, settings);
   
   return this.each(function(){
-    
-    // Uncomment the line below to test your preloader
-    // alert("Testing preloader");
     
     var slider = $(this);
     
@@ -237,10 +225,6 @@ $.fn.moutardeSlider = function(settings) {
       slider.find('div.panel-container div.panel').removeClass('current');
       slider.find('div.panel-container div.panel:eq('+ (targetPanelIndex - 1) + ')').addClass('current');
     };
-    
-    // Kill the preloader
-    $('.panel', slider).show().end().find("p.loading").remove();
-    slider.removeClass("preload");
     
     sliderCount++;
     
