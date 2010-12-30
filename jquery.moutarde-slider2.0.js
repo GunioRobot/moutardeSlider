@@ -1,7 +1,7 @@
 /*
-  jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
-  Copyright (c) 2009 Niall Doherty
-  This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+  jQuery moutardeSlider 
+  (based on jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider)
+  MIT license.
 */
 
 // window.loadFirebugConsole();
