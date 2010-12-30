@@ -1,0 +1,5 @@
+moutardeSlider is a jQuery slider based on CodaSlider 2.0 (http://www.ndoherty.biz/).
+
+I've used CodaSlider for a couple of project in the past without looking at the code. The day I did, I cried.
+
+At the moment, the external interface is similar but it will probably changes in the near future.
