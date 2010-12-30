@@ -4,17 +4,17 @@
   MIT license.
 */
 
-.coda-slider-wrapper { 
+.moutarde-slider-wrapper { 
   padding: 0;
 }
 
-.coda-slider {
+.moutarde-slider {
   background: #ffffff;
 }
 
 /* Use this to keep the slider content contained in a box 
    even when JavaScript is disabled */
-.coda-slider-no-js .coda-slider { 
+.moutarde-slider-no-js .moutarde-slider { 
   height: 560px; 
   overflow: auto 
   !important; padding-right: 
@@ -22,24 +22,24 @@
 }
 
 /* Change the width of the entire slider (without dynamic arrows) */
-.coda-slider, 
-.coda-slider .panel {
+.moutarde-slider, 
+.moutarde-slider .panel {
   width: 960px
 } 
 
 /* Change margin and width of the slider (with dynamic arrows) */
-.coda-slider-wrapper.arrows .coda-slider,
-.coda-slider-wrapper.arrows .coda-slider .panel {
+.moutarde-slider-wrapper.arrows .moutarde-slider,
+.moutarde-slider-wrapper.arrows .moutarde-slider .panel {
   width: 960px
 }
 
-.coda-slider-wrapper.arrows .coda-slider { 
+.moutarde-slider-wrapper.arrows .moutarde-slider { 
   margin: 0 10px 
 }
 
 /* Arrow styling */
-.coda-nav-left a, 
-.coda-nav-right a { 
+.moutarde-nav-left a, 
+.moutarde-nav-right a { 
   background: #000; 
   color: #fff; 
   padding: 5px; 
@@ -47,33 +47,33 @@
 }
 
 /* Tab nav */
-.coda-nav ul li a.current { 
+.moutarde-nav ul li a.current { 
   background: #000000; 
 }
 
 /* Panel padding */
-.coda-slider .panel-wrapper {
+.moutarde-slider .panel-wrapper {
   padding: 0px 
 }
 
 /* Preloader */
-.coda-slider p.loading {
+.moutarde-slider p.loading {
   padding: 20px; text-align: center 
 }
 
 /* Tabbed nav */
-.coda-nav ul {
+.moutarde-nav ul {
   clear: both;
   display: block;
   margin: auto;
   overflow: hidden
 }
 
-.coda-nav ul li { 
+.moutarde-nav ul li { 
   display: inline
 }
 
-.coda-nav ul li a { 
+.moutarde-nav ul li a { 
   background: #999999;
   color: #fff;
   display: block;
@@ -84,32 +84,32 @@
 }
 
 /* Miscellaneous */
-.coda-slider-wrapper {
+.moutarde-slider-wrapper {
   clear: both; 
   overflow: auto
 }
 
-.coda-slider { 
+.moutarde-slider { 
   float: left;
   overflow: hidden;
   position: relative
 }
 
-.coda-slider .panel {
+.moutarde-slider .panel {
   display: block;
   float: left
 }
 
-.coda-slider .panel-container { 
+.moutarde-slider .panel-container { 
   position: relative
 }
-.coda-nav-left,
-.coda-nav-right {
+.moutarde-nav-left,
+.moutarde-nav-right {
   float: left
 }
 
-.coda-nav-left a,
-.coda-nav-right a {
+.moutarde-nav-left a,
+.moutarde-nav-right a {
   display: block;
   text-align: center;
   text-decoration: none
