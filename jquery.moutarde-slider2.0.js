@@ -2,8 +2,6 @@
   jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
   Copyright (c) 2009 Niall Doherty
   This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
-  
-  * tuned by agilitic
 */
 
 // window.loadFirebugConsole();
